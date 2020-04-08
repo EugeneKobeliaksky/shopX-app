@@ -1,0 +1,30 @@
+@import "variables.scss";
+
+@mixin input-style{
+    border: none;
+    width: 60px;
+}
+@mixin input-style-hover{
+    border-bottom: 1px solid #8ed1b7;
+}
+
+@mixin  nav-text{
+    padding: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: $font-text;
+    color: $color-title-on-light;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@mixin hover-animation {
+    transition-duration: 0.2s;
+    transition-delay: .1s;
+    transform: .2s;
+    -webkit-transform: .2s;
+    -moz-transform: .2s;
+    -ms-transform: .2s;
+    -o-transform: .2s;
+}
